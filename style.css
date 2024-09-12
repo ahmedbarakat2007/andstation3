@@ -51,7 +51,7 @@ hr{
 #c911c{
     width: 100%;
     height: 70%; /* Maintain aspect ratio */
-    opacity: 0.35;
+    opacity: 0.3;
     display: block; /* Remove default margin/padding */
 }
 .centershow{
@@ -384,7 +384,15 @@ hr{
   transform: translateY(-50%); /* Center vertically relative to the footer */
   width: 80px;
 }
-
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity for darkness */
+  pointer-events: none; /* Ensure overlay doesn't interfere with interactions */
+}
 .logo img {
   display: block;
   max-width: 100%;
