@@ -149,7 +149,7 @@ hr{
   margin: 10px;
 }
 .card1 {
-  width: 800px;
+  width: 300px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #111111;
@@ -158,6 +158,17 @@ hr{
   display: inline-block;
   margin: 10px;
 }
+.card2 {
+  width: 40%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #111111;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: inline-block;
+  margin: 10px;
+}
+
 
 .card:hover {
   transform: scale(1.05);
